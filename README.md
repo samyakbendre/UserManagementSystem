@@ -31,7 +31,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 4.Pagination is also implemented in the application.
 5.Search Functionality is also implemented in the application.
 6.Form with Validations is implemented for creating new user.
-7.All the features are implemented which has been sent through whatsapp message.
+7.By clicking on name and email column can sort the repective records.
+8.All the features are implemented which has been sent through whatsapp message.
 
 
 
