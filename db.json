@@ -1,0 +1,155 @@
+{
+  "posts": [
+    {
+      "id": "4",
+      "name": "Sophia",
+      "email": "sophia@example.com",
+      "role": "Project Manager"
+    },
+    {
+      "id": "5",
+      "name": "Liam",
+      "email": "liamm@example.com",
+      "role": "Data Scientist"
+    },
+    {
+      "id": "6",
+      "name": "Olivia",
+      "email": "olivia@example.com",
+      "role": "UI/UX Designer"
+    },
+    {
+      "id": "15",
+      "name": "Michael",
+      "email": "michael@example.com",
+      "role": "Security Specialist"
+    },
+    {
+      "id": "16",
+      "name": "Charlotte",
+      "email": "charlotte@example.com",
+      "role": "Cloud Architect"
+    },
+    {
+      "id": "18",
+      "name": "Grace",
+      "email": "grace@example.com",
+      "role": "Network Engineer"
+    },
+    {
+      "id": "19",
+      "name": "Matthew",
+      "email": "matthew@example.com",
+      "role": "AI Engineer"
+    },
+    {
+      "id": "21",
+      "name": "Jackson",
+      "email": "jackson@example.com",
+      "role": "Blockchain Developer"
+    },
+    {
+      "id": "22",
+      "name": "Abigail",
+      "email": "abigail@example.com",
+      "role": "Software Architect"
+    },
+    {
+      "id": "23",
+      "name": "Sebastian",
+      "email": "sebastian@example.com",
+      "role": "Embedded Systems Engineer"
+    },
+    {
+      "id": "24",
+      "name": "Ella",
+      "email": "ella@example.com",
+      "role": "Robotics Engineer"
+    },
+    {
+      "id": "25",
+      "name": "David",
+      "email": "david@example.com",
+      "role": "Game Developer"
+    },
+    {
+      "id": "26",
+      "name": "Luna",
+      "email": "luna@example.com",
+      "role": "Big Data Analyst"
+    },
+    {
+      "id": "27",
+      "name": "Joseph",
+      "email": "joseph@example.com",
+      "role": "IT Support Specialist"
+    },
+    {
+      "id": "28",
+      "name": "Scarlett",
+      "email": "scarlett@example.com",
+      "role": "Cybersecurity Analyst"
+    },
+    {
+      "id": "29",
+      "name": "Samuel",
+      "email": "samuel@example.com",
+      "role": "Machine Learning Engineer"
+    },
+    {
+      "id": "30",
+      "name": "Averyy",
+      "email": "avery@example.com",
+      "role": "AR/VR Developer"
+    },
+    {
+      "id": "f763",
+      "name": "Babita",
+      "email": "babita@gmail.com",
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "6b69",
+      "name": "Samyak Bendre",
+      "email": "samyakbendre@gmail.com",
+      "role": "Full Stack Developer"
+    },
+    {
+      "id": "334",
+      "name": "David",
+      "email": "David@example.com",
+      "role": "Developer",
+      "schemea": "db"
+    },
+    {
+      "id": "1",
+      "name": "David",
+      "email": "David@example.com",
+      "role": "Developer",
+      "schemea": "db"
+    },
+    {
+      "id": "2",
+      "name": "David",
+      "email": "David@example.com",
+      "role": "Developer",
+      "schemea": "db"
+    },
+    {
+      "id": "2",
+      "name": "David"
+    },
+    {
+      "id": "47c6",
+      "name": "Ben",
+      "email": "ben@gmail.com",
+      "role": "FE"
+    },
+    {
+      "id": "e1f3",
+      "name": "Azhar",
+      "email": "azhar@gmail.com",
+      "role": "QA"
+    }
+  ]
+}

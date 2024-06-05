@@ -1,0 +1,27 @@
+<div class="mat-elevation-z8">
+      <!-- User Creation Form -->
+    <form [formGroup]="userForm" class="user-form">
+      <h2>{{userStatus}}</h2>
+      <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name" placeholder="Enter name">
+        <mat-error *ngIf="this.userForm.get('name')?.hasError('required')">Please enter the name</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" placeholder="Enter email">
+        <mat-error *ngIf="this.userForm.get('email')?.hasError('required')">Please enter the Email</mat-error>
+        <mat-error *ngIf="this.userForm.get('email')?.hasError('email')">Please enter the Valid Email</mat-error>
+      </mat-form-field>
+  
+      <mat-form-field appearance="fill" class="form-field">
+        <mat-label>Role</mat-label>
+        <input matInput formControlName="role" placeholder="Enter role">
+        <mat-error *ngIf="this.userForm.get('role')?.hasError('required')">Please enter the Role</mat-error>
+      </mat-form-field>
+      <mat-error *ngIf="this.errorMsg">{{errorMsg}}</mat-error>
+      <button mat-raised-button color="primary" class="submit-button" (click)="createUser()">Create</button>
+    </form>
+</div>
+  
