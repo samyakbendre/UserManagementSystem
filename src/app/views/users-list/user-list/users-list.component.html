@@ -5,9 +5,6 @@
     <button mat-raised-button color="primary" class="create-user-button" routerLink="/create-user">Create User</button>
   </div>
 
-  <!-- <mat-form-field appearance="outline" class="search-field"> -->
-  <!-- </mat-form-field> -->
-
   <table mat-table [dataSource]="dataSource" matSort class="mat-table">
 
     <!-- Name Column -->
@@ -32,7 +29,7 @@
     <ng-container matColumnDef="edit">
       <th mat-header-cell *matHeaderCellDef>Edit</th>
       <td mat-cell *matCellDef="let element">
-        <button mat-button (click)="editUser(element.id)">Edit</button>
+        <button mat-button (click)="editUser(element.id)">Edit / Assign Roles</button>
       </td>
     </ng-container>
 

@@ -17,10 +17,9 @@
   align-items: center;
 }
 
-/* styles.css or your component's CSS file */
 .search-field {
-  width: 300px; /* Adjust the width as needed */
-  margin-bottom: 16px; /* Add margin for spacing */
+  width: 300px; 
+  margin-bottom: 16px;
 }
 
 .search-input {
@@ -31,7 +30,7 @@
   border-radius: 5px;
   font-size: 16px;
   outline: none;
-  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  box-sizing: border-box;
 }
 
 .search-input:focus {
