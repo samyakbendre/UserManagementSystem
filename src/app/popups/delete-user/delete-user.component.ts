@@ -2,7 +2,6 @@ import { Component, Inject, ViewChild } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { ApiServiceService } from '../../services/api-service.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { UsersListComponent } from '../../views/users-list/user-list/users-list.component';
 import { CommonServiceService } from '../../services/common-service.service';
 
 @Component({

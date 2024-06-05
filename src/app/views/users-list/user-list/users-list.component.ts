@@ -37,7 +37,6 @@ export class UsersListComponent implements OnInit {
     this.commonService.userDeleted.subscribe(()=>{
       this.getUserList()
     })
-    console.log('its wentews')
   }
 
   ngAfterViewInit() {
@@ -61,18 +60,6 @@ export class UsersListComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result =>{
 
     })
-    // this.apiService.deleteUser(id).subscribe((response:any)=>{
-    //   if(response){
-    //     this.snackbar.open('User Deleted Successfully!','Close',{
-    //       duration : 3000,
-    //     })
-    //     this.getUserList()
-    //   }
-    // },(error=>{
-    //   this.snackbar.open('Error Encountered!','Close',{
-    //     duration : 3000,
-    //   })
-    // }))
   }
 
   editUser(id :number){

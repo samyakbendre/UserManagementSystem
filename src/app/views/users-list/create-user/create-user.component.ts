@@ -52,7 +52,6 @@ export class CreateUserComponent implements OnInit{
   }
 
   createUser(){
-    debugger
     this.markFormGroupTouched(this.userForm);
     if(this.userForm.invalid){
       return;
@@ -68,7 +67,6 @@ export class CreateUserComponent implements OnInit{
         this.errorMsg = error
       })
     }else{
-      debugger
       this.apiService.updateUser(this.userPayload(),this.id).subscribe((response:any)=>{
         if(response){
           this.snackbar.open('User Edited Successfully!','Close',{
